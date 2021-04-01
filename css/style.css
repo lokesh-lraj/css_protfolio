@@ -4,6 +4,7 @@ body{
 	color: #343434;
 	margin: 0;
 	padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 img{
 	width: 300px;
@@ -27,6 +28,7 @@ h2{
 ----------------------------------*/
 header{
 	background: #2F3061;
+  font-family: 'Caveat', cursive;
 	color: #f7fff7;
 }
 
@@ -55,6 +57,7 @@ header{
 ----------------------------------*/
 .work-experience{
   background: #a1c6d7;
+  font-family: 'Caveat', cursive;
 }
 
 
@@ -67,4 +70,5 @@ header{
 footer{
   background: #343434;
   color: #f7fff7;
+  font-family: 'Caveat', cursive;
 }
