@@ -1,12 +1,18 @@
 /*Global Styles
 ----------------------------------*/
+html{
+	box-sizing: border-box;
+}
+*, *:before, *after{
+	box-sizing: inherit;
+}
 body{
 	color: #343434;
 	margin: 0;
 	padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
 }
 img{
 	width: 300px;
@@ -46,11 +52,12 @@ header{
 /*Projects
 ----------------------------------*/
 .project{
-  background: #f7fff7
+  background: #f7fff7;
 }
 .project a{
 	color: #2F3861;
 }
+
 .project .btn{
   color: #11F660;
   background: #2F3861;
@@ -60,14 +67,26 @@ header{
   display: inline-block;
 }
 .project .btn:hover{
-  background: rgba(47, 49, 97, 0.8);
+  	background: rgba(47, 49, 97, 0.8);
 }
-
+.project-item{
+	overflow: hidden;
+	padding: 25px 0;
+	border-bottom: 1px dashed #343434;
+}
+.project-item img{
+	float: left;
+	margin-right: 20px;
+}
+.project-item h3{
+	margin: 0;
+}
 /*Work Experience
 ----------------------------------*/
 .work-experience{
-  background: #a1c6d7;
-  font-size: 15px;
+	clear: both;
+  	background: #a1c6d7;
+  	font-size: 15px;
 }
 
 
