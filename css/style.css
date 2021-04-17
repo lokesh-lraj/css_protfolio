@@ -46,6 +46,7 @@ h1, h2{
 header{
 	background: #2F3061;
 	color: #f7fff7;
+	text-align: center;
 }
 
 
@@ -99,4 +100,15 @@ header{
 footer{
   background: #343434;
   color: #f7fff7;
+  text-align: center;
+}
+.contact-List{
+	list-style-type: none;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+}
+.contact-List a{
+	padding: 10px;
+	display: inline-block;
 }
