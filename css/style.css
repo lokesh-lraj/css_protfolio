@@ -36,7 +36,8 @@ h1, h2{
   margin: 0;
 }
 .content-wrap{
-	width: 900px;
+	max-width: 900px;
+	width:85%;
 	margin: 0 auto;
 	padding: 60px 0;
 }
@@ -82,7 +83,7 @@ header{
   background: #2F3861;
   text-decoration: none;
   padding: 3px;
-  border-radius: 6px
+  border-radius: 6px;
   display: inline-block;
 }
 .project .btn:hover{
@@ -127,6 +128,7 @@ footer{
 	list-style-type: none;
 	padding: 0px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 .contact-List a{
